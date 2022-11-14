@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #423F3E;
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.nav-enlace {
+    font-family: cursive;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-enlace:hover {
+    background: #395B64;
+    color: red;
+}
+
+.nav-enlace:active {
+    background: #B8E8FC;
+}
+
+.artesanias {
+    font-size: 20px;
+    font: bold;
+    font-family: cursive;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.btn-menu {
+    background: #ffff;
+    color: black;
+    padding: 10px 30px;
+    display: none;
+    border-radius: 10px;
+
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.titulo{ 
+    font-size: 30px;
+    font-family: cursive;
+    padding: 30px;
+
+}
+.imagen-about-us {
+    width: 50%;
+    margin: 30px;
+
+}
+.imagen-about-us2 {
+    width: 50%;
+    margin: 30px;
+    margin-top: 500px;
+
+}
+
+.sobre-nosotros .contenedor--pts {
+    width: 48%;
+
+}
+
+.contenedor-textos h3 {
+    margin-bottom: 5px;
+}
+
+.contenedor-textos h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 30%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenedor-textos p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: cursive;
+}
+
+
+.about-product {
+
+    background: #f2f2f2;
+    max-width: 10000px;
+    padding-bottom: 30px;
+
+}
+
+.about-product {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+
+}
+
+.about-product .contenedor>.Texto-productos p {
+
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    padding-top: 5px;
+    text-align: center;
+    font-family: cursive;
+
+}
+.Texto-productos a{
+    text-decoration:none;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+footer {
+    background: #414141;
+    padding: 20px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contenedor-final-diseñado {
+
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+.contenedor-final-derechos {
+
+    text-align: center;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    color: #9e9797;
+}
+
+/*MODELO RESPONSIVE*/
+@media (max-width: 800px) {
+    nav {
+        background: #423F3E;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        background: #423F3E;
+        display: block;
+        font-weight: 40px;
+        text-align: center;
+    }
+
+    .btn-menu {
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 10px;
+
+    }
+
+    .desaparece {
+        display: none;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        color: red;
+    }
+}
