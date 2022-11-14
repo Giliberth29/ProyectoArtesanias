@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #423F3E;
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.nav-enlace {
+    font-family: cursive;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-enlace:hover {
+    background: #395B64;
+    color: red;
+}
+
+.nav-enlace:active {
+    background: #B8E8FC;
+}
+
+.artesanias {
+    font-size: 20px;
+    font: bold;
+    font-family: cursive;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.btn-menu {
+    background: #ffff;
+    color: black;
+    padding: 10px 30px;
+    display: none;
+    border-radius: 10px;
+
+}
+
+
+footer {
+    background: #414141;
+    padding: 20px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contenedor-final-diseñado {
+
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+.contenedor-final-derechos {
+
+    text-align: center;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    color: #9e9797;
+}
+
+/*MODELO RESPONSIVE*/
+@media (max-width: 800px) {
+    nav {
+        background: #423F3E;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        background: #423F3E;
+        display: block;
+        font-weight: 40px;
+        text-align: center;
+    }
+
+    .btn-menu {
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 10px;
+
+    }
+
+    .desaparece {
+        display: none;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        color: red;
+    }
+}
