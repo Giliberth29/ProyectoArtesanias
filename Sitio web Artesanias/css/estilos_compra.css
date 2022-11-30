@@ -57,86 +57,18 @@ nav ul li {
     border-radius: 10px;
 
 }
-/*CATEGORIA DE PRODUCTOS*/
-.contenedor{
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-
+.finalizarcompra{
+  margin-top: 5px;
+  padding-right: 25px;
+  margin-bottom: 10px;
 }
 
-.titulo{
-
-    color: rgb(23, 68, 66);
-    margin: 7px 0;
-    font-size: 50px;
-    font-weight: 600;
-    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
-    font-family: cursive;
-    text-align: center;
-    margin-top: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-}
-    
-.titulo-img{
-    color: rgb(58, 45, 49);
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    text-shadow: 2px 2px 1px rgba(78, 148, 50, 0.7);
-    font-family: cursive;
-    padding-bottom: 10px;
-    
-
-}
-
-.portafolio{
-    background: #f2f2f2;
-}
-
-.galeria-portafolio{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-}
-.img-portafolio{
-    box-shadow: black;
-}
-.about-product{
-    border-top: 3px solid black;
-}
-.titulo-productos{
-    color: rgb(58, 45, 49);
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    text-shadow: 2px 2px 1px rgba(78, 148, 50, 0.7);
-    font-family: cursive;
-    padding-bottom: 10px;
-}
-.about-product .contenedor> .Texto-productos p{
-
-    font-size: 25px;
-    margin-bottom: 10px;
-    font-weight: 300;
-    padding-top: 5px;
-    text-align: justify;
-    
-
-}
-/*PIE DE PÁGINA*/
 footer {
     background: #414141;
-    padding: 20px 0 30px 0;
-    margin: auto;
+    padding: 20px 0 50px 0;
+    margin-top: auto;
     overflow: hidden;
 }
-
 
 .contenedor-final-diseñado {
 

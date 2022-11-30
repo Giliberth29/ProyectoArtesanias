@@ -1,0 +1,24 @@
+{
+    "name": "artesanias/tienda-online",
+    "description": "Empresa fabricante y comercializadora de alcancias en yeso.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giliberth Forero",
+            "email": "giliberforcar@gmail.com"
+        },
+        {
+            "name": "Marbelssa Villamizar",
+            "email": "marbelssavillamizar@gmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Artesanias\\":"src/"
+        }
+    }
+}

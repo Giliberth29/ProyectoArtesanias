@@ -10,6 +10,7 @@
 nav {
     background: #423F3E;
     padding: 10px;
+    margin-bottom: 100px;
 }
 
 nav ul {
@@ -28,6 +29,7 @@ nav ul li {
     padding: 15px;
     text-decoration: none;
     display: inline-block;
+
 }
 
 .nav-enlace:hover {
